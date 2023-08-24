@@ -1,0 +1,129 @@
+@font-face {
+    font-family: "hamzart1";
+    src: url(./static/Epilogue-Regular.ttf);
+}
+body{
+   font-family: "hamzart1",sans-serif;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.snap{
+    padding: 15px 20px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: 900;
+}
+.feature{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);  
+}
+.feature:hover{
+    color: black;
+}
+.company{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+}
+.company:hover{
+    color: black;
+}
+.career{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+}
+.career:hover{
+    color: black;
+}
+.about{
+    padding: 20px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+}
+.about:hover{
+    color: black;
+}
+.log{
+    padding: 20px 20px 20px 650px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+}
+.log:hover{
+    color: black;
+}
+.regis{
+    padding: 20px 20px 20px 20px;
+    text-decoration: none;
+    color: rgb(97, 96, 96);
+    border: 1px solid rgb(97, 96, 96);
+    text-align: center;
+    height: 5px;
+    border-radius: 18px;
+}
+.regis:hover{
+    border: 1px solid black;
+    color: black;
+}
+.container1{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container2{
+    align-self: flex-start;
+}
+.container3{
+    align-self: flex-end;
+}
+.headerdiv2{
+    font-size: 80px;
+}
+.para{
+    font-size: 18px;
+}
+.learn{
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+}
+.learn:hover{
+    background-color: white;
+    color: black;
+}
+.data{
+    margin: 20px; 
+    width: 100px;  
+}
+.phile{
+    margin: 20px;
+    width: 100px;  
+}
+.meet{
+    margin: 20px;
+    width: 100px;  
+}
+.maker{
+    margin: 20px;
+    width: 100px;
+}
+.hero{
+    width: 400px;
+    height: 500px;
+}
